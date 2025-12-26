@@ -1,0 +1,411 @@
+[2025-12-12 08:48:58] INFO: Connected to Supabase successfully!
+[2025-12-12 08:48:58] INFO: Server running at http://localhost:5000
+[2025-12-12 09:14:14] INFO: Connected to Supabase successfully!
+[2025-12-12 09:14:14] INFO: Server running at http://localhost:7000
+[2025-12-12 09:21:36] INFO: Connected to Supabase successfully!
+[2025-12-12 09:21:36] INFO: Server running at http://localhost:7000
+[2025-12-12 09:33:45] INFO: Connected to Supabase successfully!
+[2025-12-12 09:33:45] INFO: Server running at http://localhost:7000
+[2025-12-12 09:39:39] INFO: Connected to Supabase successfully!
+[2025-12-12 09:39:39] INFO: Server running at http://localhost:7000
+[2025-12-12 10:05:52] INFO: Connected to Supabase successfully!
+[2025-12-12 10:05:52] INFO: Server running at http://localhost:7000
+[2025-12-21 19:09:24] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-21 19:22:16] ERROR: Supabase connection failed: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+
+<title>pjfoxvldngmzytvslrko.supabase.co | 521: Web server is down</title>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/main.css" />
+
+
+</head>
+<body>
+<div id="cf-wrapper">
+    <div id="cf-error-details" class="p-0">
+        <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
+            <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
+              <span class="inline-block">Web server is down</span>
+              <span class="code-label">Error code 521</span>
+            </h1>
+            <div>
+               Visit <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_521&utm_campaign=pjfoxvldngmzytvslrko.supabase.co" target="_blank" rel="noopener noreferrer">cloudflare.com</a> for more information.
+            </div>
+            <div class="mt-3">2025-12-21 19:22:15 UTC</div>
+        </header>
+        <div class="my-8 bg-gradient-gray">
+            <div class="w-240 lg:w-full mx-auto">
+                <div class="clearfix md:px-8">
+                  
+<div id="cf-browser-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">You</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Browser
+    
+  </h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-cloudflare-status" class=" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_521&utm_campaign=pjfoxvldngmzytvslrko.supabase.co" target="_blank" rel="noopener noreferrer">
+    <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    </a>
+  </div>
+  <span class="md:block w-full truncate">Lisbon</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    <a href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_521&utm_campaign=pjfoxvldngmzytvslrko.supabase.co" target="_blank" rel="noopener noreferrer">
+    Cloudflare
+    </a>
+  </h3>
+  <span class="leading-1.3 text-2xl text-green-success">Working</span>
+</div>
+
+<div id="cf-host-status" class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center">
+  <div class="relative mb-10 md:m-0">
+    
+    <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"></span>
+    <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"></span>
+    
+  </div>
+  <span class="md:block w-full truncate">pjfoxvldngmzytvslrko.supabase.co</span>
+  <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Host
+    
+  </h3>
+  <span class="leading-1.3 text-2xl text-red-error">Error</span>
+</div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+            <div class="clearfix">
+                <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
+                    <p>The web server is not returning a connection. As a result, the web page is not displaying.</p>
+                </div>
+                <div class="w-1/2 md:w-full float-left leading-relaxed">
+                    <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>
+                          <h3 class="text-15 font-semibold mb-2">If you are a visitor of this website:</h3>
+      <p class="mb-6">Please try again in a few minutes.</p>
+
+      <h3 class="text-15 font-semibold mb-2">If you are the owner of this website:</h3>
+      <p><span>Contact your hosting provider letting them know your web server is not responding.</span> <a rel="noopener noreferrer" href="https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-521/">Additional troubleshooting information</a>.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">9b19bf47a45a4895</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
+      Your IP:
+      <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
+      <span class="hidden" id="cf-footer-ip">102.176.75.92</span>
+      <span class="cf-footer-separator sm:hidden">&bull;</span>
+    </span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_521&utm_campaign=pjfoxvldngmzytvslrko.supabase.co" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+  <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&&"classList"in b&&(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&&a.addEventListener("DOMContentLoaded",d)})();</script>
+</div><!-- /.error-footer -->
+
+
+    </div>
+</div>
+</body>
+</html>
+
+[2025-12-21 19:23:20] ERROR: Supabase connection failed: Could not find the table 'public.users' in the schema cache
+[2025-12-22 00:53:50] INFO: Connected to Supabase successfully!
+[2025-12-22 00:53:50] INFO: Server running at http://localhost:7000
+[2025-12-22 01:23:05] INFO: Connected to Supabase successfully!
+[2025-12-22 01:23:05] INFO: Server running at http://localhost:7000
+[2025-12-22 09:08:50] INFO: Connected to Supabase successfully!
+[2025-12-22 09:08:50] INFO: Server running at http://localhost:7000
+[2025-12-22 18:30:05] INFO: Connected to Supabase successfully!
+[2025-12-22 18:30:05] INFO: Server running at http://localhost:7000
+[2025-12-22 18:38:22] INFO: Connected to Supabase successfully!
+[2025-12-22 18:38:22] INFO: Server running at http://localhost:7000
+[2025-12-23 20:17:06] INFO: Connected to Supabase successfully!
+[2025-12-23 20:17:06] INFO: Server running at http://localhost:7000
+[2025-12-24 09:08:31] INFO: Connected to Supabase successfully!
+[2025-12-24 09:08:31] INFO: Server running at http://localhost:7000
+[2025-12-24 10:06:52] INFO: Connected to Supabase successfully!
+[2025-12-24 10:06:52] INFO: Server running at http://localhost:7000
+[2025-12-24 10:07:08] INFO: Connected to Supabase successfully!
+[2025-12-24 10:07:08] INFO: Server running at http://localhost:7000
+[2025-12-24 10:09:22] INFO: Connected to Supabase successfully!
+[2025-12-24 10:09:22] INFO: Server running at http://localhost:7000
+[2025-12-24 10:19:29] INFO: Connected to Supabase successfully!
+[2025-12-24 10:19:29] INFO: Server running at http://localhost:7000
+[2025-12-24 10:19:42] INFO: Connected to Supabase successfully!
+[2025-12-24 10:19:42] INFO: Server running at http://localhost:7000
+[2025-12-24 10:26:53] INFO: Connected to Supabase successfully!
+[2025-12-24 10:26:53] INFO: Server running at http://localhost:7000
+[2025-12-24 10:29:36] INFO: Connected to Supabase successfully!
+[2025-12-24 10:29:36] INFO: Server running at http://localhost:7000
+[2025-12-24 10:33:07] INFO: Connected to Supabase successfully!
+[2025-12-24 10:33:07] INFO: Server running at http://localhost:7000
+[2025-12-24 10:53:38] INFO: Connected to Supabase successfully!
+[2025-12-24 10:53:38] INFO: Server running at http://localhost:7000
+[2025-12-24 10:55:48] INFO: Connected to Supabase successfully!
+[2025-12-24 10:55:48] INFO: Server running at http://localhost:7000
+[2025-12-24 10:57:22] INFO: Connected to Supabase successfully!
+[2025-12-24 10:57:22] INFO: Server running at http://localhost:7000
+[2025-12-24 11:00:26] INFO: Connected to Supabase successfully!
+[2025-12-24 11:00:26] INFO: Server running at http://localhost:7000
+[2025-12-24 11:00:46] INFO: Connected to Supabase successfully!
+[2025-12-24 11:00:46] INFO: Server running at http://localhost:7000
+[2025-12-24 11:07:45] INFO: Connected to Supabase successfully!
+[2025-12-24 11:07:45] INFO: Server running at http://localhost:7000
+[2025-12-24 11:10:43] INFO: Connected to Supabase successfully!
+[2025-12-24 11:10:43] INFO: Server running at http://localhost:7000
+[2025-12-24 11:17:04] INFO: Connected to Supabase successfully!
+[2025-12-24 11:17:04] INFO: Server running at http://localhost:7000
+[2025-12-24 11:18:46] INFO: Connected to Supabase successfully!
+[2025-12-24 11:18:46] INFO: Server running at http://localhost:7000
+[2025-12-24 11:22:15] INFO: Connected to Supabase successfully!
+[2025-12-24 11:22:15] INFO: Server running at http://localhost:7000
+[2025-12-24 11:29:07] INFO: Connected to Supabase successfully!
+[2025-12-24 11:29:07] INFO: Server running at http://localhost:7000
+[2025-12-24 11:31:00] INFO: Connected to Supabase successfully!
+[2025-12-24 11:31:00] INFO: Server running at http://localhost:7000
+[2025-12-24 11:31:11] INFO: Connected to Supabase successfully!
+[2025-12-24 11:31:11] INFO: Server running at http://localhost:7000
+[2025-12-24 11:36:44] INFO: Connected to Supabase successfully!
+[2025-12-24 11:36:44] INFO: Server running at http://localhost:7000
+[2025-12-24 11:37:31] INFO: Connected to Supabase successfully!
+[2025-12-24 11:37:31] INFO: Server running at http://localhost:7000
+[2025-12-24 11:37:34] INFO: Connected to Supabase successfully!
+[2025-12-24 11:37:34] INFO: Server running at http://localhost:7000
+[2025-12-24 11:38:35] INFO: Connected to Supabase successfully!
+[2025-12-24 11:38:35] INFO: Server running at http://localhost:7000
+[2025-12-24 11:39:57] INFO: Connected to Supabase successfully!
+[2025-12-24 11:39:57] INFO: Server running at http://localhost:7000
+[2025-12-24 11:41:44] INFO: Connected to Supabase successfully!
+[2025-12-24 11:41:44] INFO: Server running at http://localhost:7000
+[2025-12-24 11:45:09] INFO: Connected to Supabase successfully!
+[2025-12-24 11:45:09] INFO: Server running at http://localhost:7000
+[2025-12-24 11:45:25] INFO: Connected to Supabase successfully!
+[2025-12-24 11:45:25] INFO: Server running at http://localhost:7000
+[2025-12-24 11:45:30] INFO: Connected to Supabase successfully!
+[2025-12-24 11:45:30] INFO: Server running at http://localhost:7000
+[2025-12-24 11:45:59] INFO: Connected to Supabase successfully!
+[2025-12-24 11:45:59] INFO: Server running at http://localhost:7000
+[2025-12-24 11:58:03] INFO: Connected to Supabase successfully!
+[2025-12-24 11:58:03] INFO: Server running at http://localhost:7000
+[2025-12-24 11:58:21] INFO: Connected to Supabase successfully!
+[2025-12-24 11:58:21] INFO: Server running at http://localhost:7000
+[2025-12-24 12:27:36] INFO: Connected to Supabase successfully!
+[2025-12-24 12:27:36] INFO: Server running at http://localhost:7000
+[2025-12-24 12:28:28] INFO: Connected to Supabase successfully!
+[2025-12-24 12:28:28] INFO: Server running at http://localhost:7000
+[2025-12-24 12:29:28] INFO: Connected to Supabase successfully!
+[2025-12-24 12:29:28] INFO: Server running at http://localhost:7000
+[2025-12-24 12:29:43] INFO: Connected to Supabase successfully!
+[2025-12-24 12:29:43] INFO: Server running at http://localhost:7000
+[2025-12-24 12:32:27] INFO: Connected to Supabase successfully!
+[2025-12-24 12:32:27] INFO: Server running at http://localhost:7000
+[2025-12-24 12:32:45] INFO: Connected to Supabase successfully!
+[2025-12-24 12:32:45] INFO: Server running at http://localhost:7000
+[2025-12-24 12:40:45] INFO: Connected to Supabase successfully!
+[2025-12-24 12:40:45] INFO: Server running at http://localhost:7000
+[2025-12-24 12:41:00] INFO: Connected to Supabase successfully!
+[2025-12-24 12:41:00] INFO: Server running at http://localhost:7000
+[2025-12-24 14:00:58] INFO: Connected to Supabase successfully!
+[2025-12-24 14:00:58] INFO: Server running at http://localhost:7000
+[2025-12-24 14:04:29] INFO: Connected to Supabase successfully!
+[2025-12-24 14:04:29] INFO: Server running at http://localhost:7000
+[2025-12-24 14:12:56] INFO: Connected to Supabase successfully!
+[2025-12-24 14:12:56] INFO: Server running at http://localhost:7000
+[2025-12-24 14:21:08] INFO: Connected to Supabase successfully!
+[2025-12-24 14:21:08] INFO: Server running at http://localhost:7000
+[2025-12-24 14:21:22] INFO: Connected to Supabase successfully!
+[2025-12-24 14:21:22] INFO: Server running at http://localhost:7000
+[2025-12-24 14:21:39] INFO: Connected to Supabase successfully!
+[2025-12-24 14:21:39] INFO: Server running at http://localhost:7000
+[2025-12-24 14:26:09] INFO: Connected to Supabase successfully!
+[2025-12-24 14:26:09] INFO: Server running at http://localhost:7000
+[2025-12-24 14:42:21] INFO: Connected to Supabase successfully!
+[2025-12-24 14:42:21] INFO: Server running at http://localhost:7000
+[2025-12-24 14:47:27] INFO: Connected to Supabase successfully!
+[2025-12-24 14:47:27] INFO: Server running at http://localhost:7000
+[2025-12-24 14:58:22] INFO: Connected to Supabase successfully!
+[2025-12-24 14:58:22] INFO: Server running at http://localhost:7000
+[2025-12-24 14:58:33] INFO: Connected to Supabase successfully!
+[2025-12-24 14:58:33] INFO: Server running at http://localhost:7000
+[2025-12-24 14:58:40] INFO: Connected to Supabase successfully!
+[2025-12-24 14:58:40] INFO: Server running at http://localhost:7000
+[2025-12-24 14:58:45] INFO: Connected to Supabase successfully!
+[2025-12-24 14:58:45] INFO: Server running at http://localhost:7000
+[2025-12-24 15:38:48] INFO: Connected to Supabase successfully!
+[2025-12-24 15:38:48] INFO: Server running at http://localhost:7000
+[2025-12-24 15:39:40] INFO: Connected to Supabase successfully!
+[2025-12-24 15:39:40] INFO: Server running at http://localhost:7000
+[2025-12-24 15:43:16] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-24 15:43:38] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-24 21:15:50] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-24 23:40:10] INFO: Connected to Supabase successfully!
+[2025-12-24 23:40:10] INFO: Server running at http://localhost:7000
+[2025-12-24 23:44:01] INFO: Connected to Supabase successfully!
+[2025-12-24 23:44:01] INFO: Server running at http://localhost:7000
+[2025-12-24 23:45:22] INFO: Connected to Supabase successfully!
+[2025-12-24 23:45:22] INFO: Server running at http://localhost:7000
+[2025-12-24 23:45:36] INFO: Connected to Supabase successfully!
+[2025-12-24 23:45:36] INFO: Server running at http://localhost:7000
+[2025-12-24 23:45:59] INFO: Connected to Supabase successfully!
+[2025-12-24 23:45:59] INFO: Server running at http://localhost:7000
+[2025-12-24 23:47:14] INFO: Connected to Supabase successfully!
+[2025-12-24 23:47:14] INFO: Server running at http://localhost:7000
+[2025-12-24 23:47:18] INFO: Connected to Supabase successfully!
+[2025-12-24 23:47:18] INFO: Server running at http://localhost:7000
+[2025-12-24 23:47:30] INFO: Connected to Supabase successfully!
+[2025-12-24 23:47:30] INFO: Server running at http://localhost:7000
+[2025-12-25 05:55:08] INFO: Connected to Supabase successfully!
+[2025-12-25 05:55:08] INFO: Server running at http://localhost:7000
+[2025-12-25 05:57:00] INFO: Connected to Supabase successfully!
+[2025-12-25 05:57:00] INFO: Server running at http://localhost:7000
+[2025-12-25 05:57:50] INFO: Connected to Supabase successfully!
+[2025-12-25 05:57:50] INFO: Server running at http://localhost:7000
+[2025-12-25 06:21:32] INFO: Connected to Supabase successfully!
+[2025-12-25 06:21:32] INFO: Server running at http://localhost:7000
+[2025-12-25 06:27:17] INFO: Connected to Supabase successfully!
+[2025-12-25 06:27:17] INFO: Server running at http://localhost:7000
+[2025-12-25 06:31:08] INFO: Connected to Supabase successfully!
+[2025-12-25 06:31:08] INFO: Server running at http://localhost:7000
+[2025-12-25 06:31:18] INFO: Connected to Supabase successfully!
+[2025-12-25 06:31:18] INFO: Server running at http://localhost:7000
+[2025-12-25 06:32:06] INFO: Connected to Supabase successfully!
+[2025-12-25 06:32:06] INFO: Server running at http://localhost:7000
+[2025-12-25 06:32:45] INFO: Connected to Supabase successfully!
+[2025-12-25 06:32:45] INFO: Server running at http://localhost:7000
+[2025-12-25 06:42:07] INFO: Connected to Supabase successfully!
+[2025-12-25 06:42:07] INFO: Server running at http://localhost:7000
+[2025-12-25 07:01:35] INFO: Connected to Supabase successfully!
+[2025-12-25 07:01:35] INFO: Server running at http://localhost:7000
+[2025-12-25 07:01:59] INFO: Connected to Supabase successfully!
+[2025-12-25 07:01:59] INFO: Server running at http://localhost:7000
+[2025-12-25 07:02:06] INFO: Connected to Supabase successfully!
+[2025-12-25 07:02:06] INFO: Server running at http://localhost:7000
+[2025-12-25 07:07:46] INFO: Connected to Supabase successfully!
+[2025-12-25 07:07:46] INFO: Server running at http://localhost:7000
+[2025-12-25 07:20:37] INFO: Connected to Supabase successfully!
+[2025-12-25 07:20:37] INFO: Server running at http://localhost:7000
+[2025-12-25 07:27:12] INFO: Connected to Supabase successfully!
+[2025-12-25 07:27:12] INFO: Server running at http://localhost:7000
+[2025-12-25 07:31:24] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-25 07:31:52] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-25 07:32:44] INFO: Connected to Supabase successfully!
+[2025-12-25 07:32:44] INFO: Server running at http://localhost:7000
+[2025-12-25 07:34:04] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-25 07:34:33] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-25 07:35:13] ERROR: Supabase connection failed: TypeError: fetch failed
+[2025-12-25 07:35:45] INFO: Connected to Supabase successfully!
+[2025-12-25 07:35:45] INFO: Server running at http://localhost:7000
+[2025-12-25 07:36:40] INFO: Connected to Supabase successfully!
+[2025-12-25 07:36:40] INFO: Server running at http://localhost:7000
+[2025-12-25 07:46:03] INFO: Connected to Supabase successfully!
+[2025-12-25 07:46:03] INFO: Server running at http://localhost:7000
+[2025-12-25 07:48:01] INFO: Connected to Supabase successfully!
+[2025-12-25 07:48:01] INFO: Server running at http://localhost:7000
+[2025-12-25 07:48:59] INFO: Connected to Supabase successfully!
+[2025-12-25 07:48:59] INFO: Server running at http://localhost:7000
+[2025-12-25 07:49:37] INFO: Connected to Supabase successfully!
+[2025-12-25 07:49:37] INFO: Server running at http://localhost:7000
+[2025-12-25 07:52:13] INFO: Connected to Supabase successfully!
+[2025-12-25 07:52:13] INFO: Server running at http://localhost:7000
+[2025-12-25 08:12:27] INFO: Connected to Supabase successfully!
+[2025-12-25 08:12:27] INFO: Server running at http://localhost:7000
+[2025-12-25 08:12:35] INFO: Connected to Supabase successfully!
+[2025-12-25 08:12:35] INFO: Server running at http://localhost:7000
+[2025-12-25 08:12:43] INFO: Connected to Supabase successfully!
+[2025-12-25 08:12:43] INFO: Server running at http://localhost:7000
+[2025-12-25 08:12:48] INFO: Connected to Supabase successfully!
+[2025-12-25 08:12:48] INFO: Server running at http://localhost:7000
+[2025-12-25 08:12:52] INFO: Connected to Supabase successfully!
+[2025-12-25 08:12:52] INFO: Server running at http://localhost:7000
+[2025-12-25 08:12:56] INFO: Connected to Supabase successfully!
+[2025-12-25 08:12:56] INFO: Server running at http://localhost:7000
+[2025-12-25 08:20:13] INFO: Connected to Supabase successfully!
+[2025-12-25 08:20:13] INFO: Server running at http://localhost:7000
+[2025-12-25 08:22:41] INFO: Connected to Supabase successfully!
+[2025-12-25 08:22:41] INFO: Server running at http://localhost:7000
+[2025-12-25 08:24:02] INFO: Connected to Supabase successfully!
+[2025-12-25 08:24:02] INFO: Server running at http://localhost:7000
+[2025-12-25 08:31:30] INFO: Connected to Supabase successfully!
+[2025-12-25 08:31:30] INFO: Server running at http://localhost:7000
+[2025-12-25 08:33:13] INFO: Connected to Supabase successfully!
+[2025-12-25 08:33:13] INFO: Server running at http://localhost:7000
+[2025-12-25 08:34:47] INFO: Connected to Supabase successfully!
+[2025-12-25 08:34:47] INFO: Server running at http://localhost:7000
+[2025-12-25 08:35:12] INFO: Connected to Supabase successfully!
+[2025-12-25 08:35:12] INFO: Server running at http://localhost:7000
+[2025-12-25 08:36:07] INFO: Connected to Supabase successfully!
+[2025-12-25 08:36:07] INFO: Server running at http://localhost:7000
+[2025-12-25 10:51:09] INFO: Connected to Supabase successfully!
+[2025-12-25 10:51:09] INFO: Server running at http://localhost:7000
+[2025-12-25 10:53:06] INFO: Connected to Supabase successfully!
+[2025-12-25 10:53:06] INFO: Server running at http://localhost:7000
+[2025-12-25 10:57:22] INFO: Connected to Supabase successfully!
+[2025-12-25 10:57:22] INFO: Server running at http://localhost:7000
+[2025-12-25 10:58:25] INFO: Connected to Supabase successfully!
+[2025-12-25 10:58:25] INFO: Server running at http://localhost:7000
+[2025-12-25 11:13:35] INFO: Connected to Supabase successfully!
+[2025-12-25 11:13:35] INFO: Server running at http://localhost:7000
+[2025-12-25 11:16:07] INFO: Connected to Supabase successfully!
+[2025-12-25 11:16:07] INFO: Server running at http://localhost:7000
+[2025-12-25 11:16:34] INFO: Connected to Supabase successfully!
+[2025-12-25 11:16:34] INFO: Server running at http://localhost:7000
+[2025-12-25 11:23:18] INFO: Connected to Supabase successfully!
+[2025-12-25 11:23:18] INFO: Server running at http://localhost:7000
+[2025-12-25 11:24:24] INFO: Connected to Supabase successfully!
+[2025-12-25 11:24:24] INFO: Server running at http://localhost:7000
+[2025-12-25 11:28:42] INFO: Connected to Supabase successfully!
+[2025-12-25 11:28:42] INFO: Server running at http://localhost:7000
+[2025-12-25 11:29:54] INFO: Connected to Supabase successfully!
+[2025-12-25 11:29:54] INFO: Server running at http://localhost:7000
+[2025-12-25 11:30:10] INFO: Connected to Supabase successfully!
+[2025-12-25 11:30:10] INFO: Server running at http://localhost:7000
+[2025-12-25 11:31:56] INFO: Connected to Supabase successfully!
+[2025-12-25 11:31:56] INFO: Server running at http://localhost:7000
+[2025-12-25 11:32:33] INFO: Connected to Supabase successfully!
+[2025-12-25 11:32:33] INFO: Server running at http://localhost:7000
+[2025-12-25 11:35:46] INFO: Connected to Supabase successfully!
+[2025-12-25 11:35:46] INFO: Server running at http://localhost:7000
+[2025-12-25 11:38:20] INFO: Connected to Supabase successfully!
+[2025-12-25 11:38:20] INFO: Server running at http://localhost:7000
+[2025-12-25 11:39:38] INFO: Connected to Supabase successfully!
+[2025-12-25 11:39:38] INFO: Server running at http://localhost:7000
+[2025-12-25 15:38:07] INFO: Connected to Supabase successfully!
+[2025-12-25 15:38:07] INFO: Server running at http://localhost:7000
+[2025-12-25 21:49:44] INFO: Connected to Supabase successfully!
+[2025-12-25 21:49:44] INFO: Server running at http://localhost:7000
+[2025-12-25 21:56:12] INFO: Connected to Supabase successfully!
+[2025-12-25 21:56:12] INFO: Server running at http://localhost:7000
+[2025-12-26 06:36:30] INFO: Connected to Supabase successfully!
+[2025-12-26 06:36:30] INFO: Server running at http://localhost:7000
+[2025-12-26 12:40:40] INFO: Connected to Supabase successfully!
+[2025-12-26 12:40:40] INFO: Server running at http://localhost:7000
+[2025-12-26 12:45:03] INFO: Server running on http://localhost:7000
