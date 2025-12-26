@@ -16,10 +16,15 @@ import adminSermonRoutes from './routes/adminSermonRoutes.js';
  
 
 dotenv.config();
-
+ 
 const app = express();
 
-// Middlewares
+app.use(cors({
+  origin: 'https://pillar-of-zion-church-int-greater-a.vercel.app/api/',
+  credentials: true
+}));
+
+// Middlewares 
 app.use(cors());
 app.use(helmet());
 app.use(express.json());
