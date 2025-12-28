@@ -225,3 +225,52 @@ export const likeComment = async (req, res) => {
   }
 };
 
+
+
+// Update sermon (admin)
+export const updateSermon = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { title, description, socialStreams } = req.body;
+
+    const updates = {
+      title,
+      description,
+      social_streams: socialStreams ? JSON.parse(socialStreams) : []
+    };
+
+    const { data, error } = await supabase
+      .from("sermons")
+      .update(updates)
+      .eq("id", id)
+      .select()
+      .single();
+
+    if (error) throw error;
+
+    res.json({ message: "Sermon updated successfully", sermon: data });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
+
+
+
+// Delete sermon (admin)
+export const deleteSermon = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const { error } = await supabase
+      .from("sermons")
+      .delete()
+      .eq("id", id);
+
+    if (error) throw error;
+
+    res.json({ message: "Sermon deleted successfully" });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
+

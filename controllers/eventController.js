@@ -116,3 +116,76 @@ export const rsvpEvent = async (req, res) => {
   }
 };
  
+
+// Update event
+export const updateEvent = async (req, res) => {
+  try {
+    const { eventId } = req.params;
+
+    // Parse body
+    const body = {
+      title: req.body.title,
+      description: req.body.description || '',
+      date: req.body.date,
+      time: req.body.time || '',
+      location: req.body.location,
+      category: req.body.category,
+      link: req.body.link || ''
+    };
+
+    // Validate input
+    const { error, value } = eventSchema.validate(body);
+    if (error) {
+      return res.status(400).json({ error: error.details[0].message });
+    }
+
+    // Handle image upload if provided
+    if (req.file) {
+      try {
+        const uploadResult = await uploadToCloudinary(req.file.buffer, 'events', {
+          resource_type: 'image'
+        });
+        value.image = uploadResult.secure_url;
+      } catch (cloudErr) {
+        return res.status(500).json({ error: 'Failed to upload image' });
+      }
+    }
+
+    // Update event in Supabase
+    const { data, error: updateError } = await supabase
+      .from('events')
+      .update(value)
+      .eq('id', eventId)
+      .select()
+      .single();
+
+    if (updateError) throw updateError;
+
+    res.json({ message: 'Event updated successfully', event: data });
+  } catch (err) {
+    console.error('Update event error:', err);
+    res.status(500).json({ error: err.message });
+  }
+};
+
+
+// Delete event
+export const deleteEvent = async (req, res) => {
+  try {
+    const { eventId } = req.params;
+
+    const { data, error } = await supabase
+      .from('events')
+      .delete()
+      .eq('id', eventId)
+      .select()
+      .single();
+
+    if (error) throw error;
+
+    res.json({ message: 'Event deleted successfully', event: data });
+  } catch (err) {
+    console.error('Delete event error:', err);
+    res.status(500).json({ error: err.message });
+  }
+};

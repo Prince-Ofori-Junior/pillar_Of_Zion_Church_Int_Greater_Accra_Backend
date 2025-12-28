@@ -1,8 +1,11 @@
+// routes/adminSermonRoutes.js
 import express from "express";
 import multer from "multer";
 import {
   uploadSermon,
-  getSermons,          // 👈 ADD THIS
+  getSermons,
+  updateSermon,
+  deleteSermon,
 } from "../controllers/sermonController.js";
 import { authenticate } from "../middlewares/authMiddleware.js";
 import { authorizeRoles } from "../middlewares/roleMiddleware.js";
@@ -14,7 +17,11 @@ const upload = multer({
   limits: { fileSize: 1024 * 1024 * 200 },
 });
 
-// ✅ GET /api/admin/sermons 
+// ======================
+// ADMIN SERMON ROUTES
+// ======================
+
+// GET all sermons
 router.get(
   "/",
   authenticate,
@@ -22,7 +29,7 @@ router.get(
   getSermons
 );
 
-// ✅ POST /api/admin/sermons/upload
+// UPLOAD sermon
 router.post(
   "/upload",
   authenticate,
@@ -31,4 +38,22 @@ router.post(
   uploadSermon
 );
 
+// UPDATE sermon
+router.put(
+  "/:id",
+  authenticate,
+  authorizeRoles("admin"),
+  updateSermon
+);
+
+// DELETE sermon
+router.delete(
+  "/:id",
+  authenticate,
+  authorizeRoles("admin"),
+  deleteSermon
+);
+
+// ✅ THIS IS THE FIX
 export default router;
+ 

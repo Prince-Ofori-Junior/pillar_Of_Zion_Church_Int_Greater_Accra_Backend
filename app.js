@@ -19,10 +19,24 @@ dotenv.config();
  
 const app = express();
 
-app.use(cors({
-  origin: 'https://pillar-of-zion-church-int-greater-a.vercel.app/api/',
-  credentials: true
-}));
+const allowedOrigins = [
+  'https://pillar-of-zion-church-int-greater-a.vercel.app',
+  'http://localhost:3000',
+  'http://localhost:3001'
+];
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    credentials: true
+  })
+);
 
 // Middlewares 
 app.use(cors());

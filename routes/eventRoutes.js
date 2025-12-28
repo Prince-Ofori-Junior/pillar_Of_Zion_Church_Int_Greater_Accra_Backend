@@ -1,6 +1,12 @@
 // backend/routes/eventRoutes.js
 import express from 'express';
-import { createEvent, getEvents, rsvpEvent } from '../controllers/eventController.js';
+import { 
+  createEvent, 
+  getEvents, 
+  rsvpEvent, 
+  updateEvent, 
+  deleteEvent 
+} from '../controllers/eventController.js'; // <-- IMPORT MISSING FUNCTIONS
 import { authenticate } from '../middlewares/authMiddleware.js';
 import { authorizeRoles } from '../middlewares/roleMiddleware.js';
 import multer from 'multer';
@@ -31,8 +37,21 @@ router.get('/admin', authenticate, authorizeRoles('admin'), getEvents);
 // Create event with optional image upload (admin only)
 router.post('/admin', authenticate, authorizeRoles('admin'), upload.single('image'), createEvent);
 
-// Optional: add update/delete event routes here for admin
-// router.put('/admin/:eventId', authenticate, authorizeRoles('admin'), upload.single('image'), updateEvent);
-// router.delete('/admin/:eventId', authenticate, authorizeRoles('admin'), deleteEvent);
+// Update an event (admin only)
+router.put(
+  '/admin/:eventId',
+  authenticate,
+  authorizeRoles('admin'),
+  upload.single('image'),
+  updateEvent
+);
 
-export default router; 
+// Delete an event (admin only)
+router.delete(
+  '/admin/:eventId',
+  authenticate,
+  authorizeRoles('admin'),
+  deleteEvent
+);
+
+export default router;

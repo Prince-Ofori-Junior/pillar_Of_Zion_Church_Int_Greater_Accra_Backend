@@ -10,3 +10,4 @@ router.get('/', getPrayers);             // Get all prayers
 router.post('/:id/pray', prayedFor);     // Increment prayed count
 
 export default router;
+ 
