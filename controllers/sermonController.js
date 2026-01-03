@@ -48,7 +48,7 @@ export const uploadSermon = async (req, res) => {
 
     const { title, description, cameras, socialStreams } = value;
 
-    const { data, error: insertError } = await supabase
+    const { data, error: insertError } = await supabase 
       .from('sermons')
       .insert([
         {
